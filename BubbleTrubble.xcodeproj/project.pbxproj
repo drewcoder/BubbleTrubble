@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		F74DE78C27F647D800AA3112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74DE78B27F647D800AA3112 /* AppDelegate.swift */; };
 		F74DE78E27F647D800AA3112 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F74DE78D27F647D800AA3112 /* GameScene.sks */; };
-		F74DE79027F647D800AA3112 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F74DE78F27F647D800AA3112 /* Actions.sks */; };
 		F74DE79227F647D800AA3112 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74DE79127F647D800AA3112 /* GameScene.swift */; };
 		F74DE79427F647D800AA3112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74DE79327F647D800AA3112 /* ViewController.swift */; };
 		F74DE79627F647DB00AA3112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74DE79527F647DB00AA3112 /* Assets.xcassets */; };
 		F74DE79927F647DB00AA3112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74DE79727F647DB00AA3112 /* Main.storyboard */; };
+		F74DE7A127F651BF00AA3112 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = F74DE7A027F651BF00AA3112 /* pop.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F74DE78827F647D800AA3112 /* BubbleTrubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTrubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74DE78B27F647D800AA3112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F74DE78D27F647D800AA3112 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		F74DE78F27F647D800AA3112 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		F74DE79127F647D800AA3112 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		F74DE79327F647D800AA3112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F74DE79527F647DB00AA3112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74DE79827F647DB00AA3112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F74DE79A27F647DB00AA3112 /* BubbleTrubble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BubbleTrubble.entitlements; sourceTree = "<group>"; };
+		F74DE7A027F651BF00AA3112 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +60,10 @@
 			children = (
 				F74DE78B27F647D800AA3112 /* AppDelegate.swift */,
 				F74DE78D27F647D800AA3112 /* GameScene.sks */,
-				F74DE78F27F647D800AA3112 /* Actions.sks */,
 				F74DE79127F647D800AA3112 /* GameScene.swift */,
 				F74DE79327F647D800AA3112 /* ViewController.swift */,
 				F74DE79527F647DB00AA3112 /* Assets.xcassets */,
+				F74DE7A027F651BF00AA3112 /* pop.wav */,
 				F74DE79727F647DB00AA3112 /* Main.storyboard */,
 				F74DE79A27F647DB00AA3112 /* BubbleTrubble.entitlements */,
 			);
@@ -130,7 +130,7 @@
 			files = (
 				F74DE78E27F647D800AA3112 /* GameScene.sks in Resources */,
 				F74DE79627F647DB00AA3112 /* Assets.xcassets in Resources */,
-				F74DE79027F647D800AA3112 /* Actions.sks in Resources */,
+				F74DE7A127F651BF00AA3112 /* pop.wav in Resources */,
 				F74DE79927F647DB00AA3112 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
